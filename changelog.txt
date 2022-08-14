@@ -1,4 +1,4 @@
-"""2.0 (15-08-2022)
+2.0 (15-08-2022)
     ────────────────
 Features
 
@@ -41,4 +41,3 @@ Bugfixes
       vielmehr scheint es als würde sich ein Rad drehen, weil die Teile
       der Progressbar, die noch nicht erreicht wurden, jetzt nicht mehr
       die Farbe des Hintergrundes haben, sondern eine dunklere der Bar.
-    """
