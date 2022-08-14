@@ -1,5 +1,5 @@
 2.0 (15-08-2022)
-    ────────────────
+────────────────
 Features
 
     • Menubar wurde hinzugefügt um Einstellungen einfach und intuitiv
