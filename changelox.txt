@@ -1,0 +1,44 @@
+"""2.0 (15-08-2022)
+    ────────────────
+Features
+
+    • Menubar wurde hinzugefügt um Einstellungen einfach und intuitiv
+      zu ändern.
+
+    • Der einstellbare Countdown ist nun dort einstellbar, wo
+      man ihn dann auch letztendlich sieht: in der Mitte.
+      So zeigt das Display untenrechts nun nicht mehr den Countdown,
+      sondern den Zeitpunkt, an dem dieser dann enden wird.
+
+    • Beide Displays sind einstellbar. So lässt sich der Zeitpunkt
+      genau einstellen, oder die Zeit in der der Countdown endet.
+      Zudem sind beide mit Scrollen oder Doppelclick bearbeitbar.
+      Wenn der Wert eines Displays abgeändert wird, ändert sich
+      dynamisch der Wert des anderen, auch mit weiterlaufen der Zeit.
+      
+    • Bei Pausieren des Timers ist er wieder einstellbar. (Eigentlich
+      wird der Timer abgebrochen und man wird zurück ins normale Menü
+      gebracht, jedoch speichert sich die geradige Zeit des Timers,
+      sodass es wie Pausieren aussieht)
+
+    • Zahlen des Δt-Displays, die nicht wichtig sind für den Countdown
+      haben nun eine dunklere Farbe für bessere Lesbarkeit.
+      
+    • Bei Bearbeiten eines Displays mit dem Doppelclick, hat man nun
+      unbegrenzt Zeit und somit keinen Stress mehr.
+
+    • Logo wurde geupdatet, weil das Alte durch den low-res-pixel
+      "Style" sehr blurry aussah.
+
+Bugfixes
+
+    • Framerate war vorher ungecapped und es wurd daher viel mehr
+      CPU verbraucht als benötigt, vorher 30% (im Taskmanager!) und
+      jetzt höchstens 0.1% auf meinem PC zumindest.
+      
+    • Die Progressbar hatte unschöne Lücken zwischen den Farbblöcken.
+      Zudem kommt die Progressbar nicht mehr "aus dem nichts", sondern
+      vielmehr scheint es als würde sich ein Rad drehen, weil die Teile
+      der Progressbar, die noch nicht erreicht wurden, jetzt nicht mehr
+      die Farbe des Hintergrundes haben, sondern eine dunklere der Bar.
+    """
