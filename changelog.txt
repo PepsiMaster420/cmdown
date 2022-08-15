@@ -45,6 +45,9 @@ Features
       Kontaktieren kann, falls es aus welchem Grund auch immer nicht
       möglich ist. Zudem kann man einsehen welche python-Module
       genutzt wurden.
+      
+    • Der Modus ist oben rechts nun immer sichtbar und auch während
+      eines laufenden Timers einstellbar.
     
     • Neue Farbthemen:
         » Classic
@@ -82,3 +85,4 @@ Features
         » Normal
         » Darkmode
         » Kontrast
+        
